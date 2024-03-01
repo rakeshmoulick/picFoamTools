@@ -1,0 +1,4271 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : picFoam
+Date   : Feb 22 2024
+Time   : 14:21:15
+Host   : "rakesh-Precision-5820-Tower"
+PID    : 403928
+I/O    : uncollated
+Case   : /home/rakesh/OpenFOAM/picFoam/test_run/thermalization_binaryCollision
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+Constructing picCloud 
+
+Read space charge value of 0 As
+
+Constructing constant properties for
+    Ne
+    |_ mass:          3.375350746e-26 [kg]
+    |_ d:             3.08e-10 [m]
+    |_ charge:        0 [C]
+    |_ weight:        200 [-]
+    |_ solveMovement: yes
+    Ar
+    |_ mass:          6.681789475e-26 [kg]
+    |_ d:             3.76e-10 [m]
+    |_ charge:        0 [C]
+    |_ weight:        400 [-]
+    |_ solveMovement: yes
+
+Initializing submodels
+----------------------
++ Selecting ChargeDistribution CellAverage
++ Selecting FieldWeigthing model CellAverage
++ Selecting BackgroundGas model none
++ Selecting ParticleMergingModel none
+|->    Particles have different weighting factors
+
++ Selecting BinaryCollisionModel IsotropicScattering
+|->    Selecting TotalCrossSectionModel HardSphere
+|->    Selecting WeightCorrection model Nanbu
++ Selecting CoulombCollisionModel none
++ Selecting ElectronNeutralCollisionModel none
++ Selecting IonNeutralCollisionModel none
++ Selecting MaxwellSolver none
++ Selecting ParticlePusher Boris
+|->    No magnetic field, deactivating calculation of the velocity vector rotation
+
++ Selecting WallReflectionModel SpecularReflection
++ Selecting DiagnosticInfo:
+|->    Temperature
+       |= Do not incorporate dirft velocities
+
+Starting time loop
+
+Time = 1e-08
+
+    WARNING parcel trajectory (4.780577976) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 957
+    Acceptance rate                     = 0.9363992172
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 753.6659125 K == 0.06494581396 eV
+    [Ne]                             = 995.4518453 K == 0.08578128489 eV
+    [Ar]                             = 511.8943036 K == 0.04411157737 eV
+----
+
+ExecutionTime = 0.13 s  ClockTime = 0 s
+
+Time = 2e-08
+
+    WARNING parcel trajectory (4.780577976) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1514
+    Acceptance rate                     = 0.5364989369
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.6967267 K == 0.06503464253 eV
+    [Ne]                             = 985.3168198 K == 0.08490791717 eV
+    [Ar]                             = 524.0902959 K == 0.04516254522 eV
+----
+
+ExecutionTime = 0.18 s  ClockTime = 0 s
+
+Time = 3e-08
+
+    WARNING parcel trajectory (8.967390155) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1578
+    Acceptance rate                     = 0.4822738386
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.0316797 K == 0.06506350651 eV
+    [Ne]                             = 975.5880354 K == 0.08406955654 eV
+    [Ar]                             = 534.4883902 K == 0.04605858243 eV
+----
+
+ExecutionTime = 0.24 s  ClockTime = 0 s
+
+Time = 4e-08
+
+    WARNING parcel trajectory (8.967390155) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1552
+    Acceptance rate                     = 0.4431753284
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.7215923 K == 0.06503678528 eV
+    [Ne]                             = 964.1427058 K == 0.08308327571 eV
+    [Ar]                             = 545.3128853 K == 0.04699136396 eV
+----
+
+ExecutionTime = 0.3 s  ClockTime = 0 s
+
+Time = 5e-08
+
+    WARNING parcel trajectory (8.967390155) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1578
+    Acceptance rate                     = 0.4363938053
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.8874087 K == 0.06505107421 eV
+    [Ne]                             = 954.1315754 K == 0.08222058443 eV
+    [Ar]                             = 555.6550456 K == 0.04788258115 eV
+----
+
+ExecutionTime = 0.36 s  ClockTime = 0 s
+
+Time = 6e-08
+
+    WARNING parcel trajectory (8.967390155) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1591
+    Acceptance rate                     = 0.4342248908
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.1241737 K == 0.0649853038 eV
+    [Ne]                             = 943.5043248 K == 0.08130480009 eV
+    [Ar]                             = 564.7552418 K == 0.04866677431 eV
+----
+
+ExecutionTime = 0.42 s  ClockTime = 0 s
+
+Time = 7e-08
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1518
+    Acceptance rate                     = 0.4025457438
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.0965564 K == 0.06506909714 eV
+    [Ne]                             = 934.4588175 K == 0.08052531965 eV
+    [Ar]                             = 575.744921 K == 0.04961379029 eV
+----
+
+ExecutionTime = 0.47 s  ClockTime = 0 s
+
+Time = 8e-08
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1531
+    Acceptance rate                     = 0.399009643
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.0216104 K == 0.0650626388 eV
+    [Ne]                             = 928.5229179 K == 0.0800138041 eV
+    [Ar]                             = 581.5305814 K == 0.05011235924 eV
+----
+
+ExecutionTime = 0.53 s  ClockTime = 0 s
+
+Time = 9e-08
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1506
+    Acceptance rate                     = 0.38595592
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.5020847 K == 0.0650178696 eV
+    [Ne]                             = 921.3906041 K == 0.0793991897 eV
+    [Ar]                             = 587.623452 K == 0.05063740148 eV
+----
+
+ExecutionTime = 0.59 s  ClockTime = 0 s
+
+Time = 1e-07
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1562
+    Acceptance rate                     = 0.3988764045
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.7794165 K == 0.06504176818 eV
+    [Ne]                             = 915.7137849 K == 0.07890999994 eV
+    [Ar]                             = 593.8545823 K == 0.051174358 eV
+----
+
+ExecutionTime = 0.74 s  ClockTime = 0 s
+
+Time = 1.1e-07
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1577
+    Acceptance rate                     = 0.3982323232
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.9242646 K == 0.0650542502 eV
+    [Ne]                             = 907.7430922 K == 0.07822313974 eV
+    [Ar]                             = 602.1144902 K == 0.05188614082 eV
+----
+
+ExecutionTime = 0.8 s  ClockTime = 0 s
+
+Time = 1.2e-07
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1575
+    Acceptance rate                     = 0.3957286432
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.7822202 K == 0.065128183 eV
+    [Ne]                             = 899.0268692 K == 0.07747203479 eV
+    [Ar]                             = 612.5460573 K == 0.05278506248 eV
+----
+
+ExecutionTime = 0.86 s  ClockTime = 0 s
+
+Time = 1.3e-07
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1488
+    Acceptance rate                     = 0.3687732342
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.9029079 K == 0.06513858304 eV
+    [Ne]                             = 891.2637395 K == 0.07680306095 eV
+    [Ar]                             = 620.5500953 K == 0.05347479615 eV
+----
+
+ExecutionTime = 0.92 s  ClockTime = 0 s
+
+Time = 1.4e-07
+
+    WARNING parcel trajectory (6.411008911) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1463
+    Acceptance rate                     = 0.3619495299
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.2285844 K == 0.06508047442 eV
+    [Ne]                             = 884.907553 K == 0.07625532793 eV
+    [Ar]                             = 625.5572982 K == 0.05390628293 eV
+----
+
+ExecutionTime = 0.97 s  ClockTime = 1 s
+
+Time = 1.5e-07
+
+    WARNING parcel trajectory (7.518668702) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1498
+    Acceptance rate                     = 0.3696939783
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.2309025 K == 0.06508067418 eV
+    [Ne]                             = 878.2625474 K == 0.07568270644 eV
+    [Ar]                             = 632.2065463 K == 0.05447927 eV
+----
+
+ExecutionTime = 1.03 s  ClockTime = 1 s
+
+Time = 1.6e-07
+
+    WARNING parcel trajectory (6.769254162) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1497
+    Acceptance rate                     = 0.3679036618
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.8031685 K == 0.06504381496 eV
+    [Ne]                             = 872.6109404 K == 0.0751956893 eV
+    [Ar]                             = 637.0023757 K == 0.05489254204 eV
+----
+
+ExecutionTime = 1.09 s  ClockTime = 1 s
+
+Time = 1.7e-07
+
+    WARNING parcel trajectory (6.769254162) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1527
+    Acceptance rate                     = 0.3747239264
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.6896792 K == 0.06512020844 eV
+    [Ne]                             = 866.5193419 K == 0.07467075668 eV
+    [Ar]                             = 644.8665822 K == 0.05557022599 eV
+----
+
+ExecutionTime = 1.14 s  ClockTime = 1 s
+
+Time = 1.8e-07
+
+    WARNING parcel trajectory (6.769254162) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1499
+    Acceptance rate                     = 0.3664140797
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.3104269 K == 0.06517370027 eV
+    [Ne]                             = 861.0305473 K == 0.07419776961 eV
+    [Ar]                             = 651.5965104 K == 0.05615016553 eV
+----
+
+ExecutionTime = 1.2 s  ClockTime = 1 s
+
+Time = 1.9e-07
+
+    WARNING parcel trajectory (6.769254162) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1514
+    Acceptance rate                     = 0.3695386868
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.1171716 K == 0.06524322005 eV
+    [Ne]                             = 856.5216479 K == 0.07380922325 eV
+    [Ar]                             = 657.7185842 K == 0.0566777243 eV
+----
+
+ExecutionTime = 1.25 s  ClockTime = 1 s
+
+Time = 2e-07
+
+    WARNING parcel trajectory (6.769254162) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1510
+    Acceptance rate                     = 0.3685623627
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.9087337 K == 0.06522525828 eV
+    [Ne]                             = 852.6232314 K == 0.07347328417 eV
+    [Ar]                             = 661.1999063 K == 0.05697772102 eV
+----
+
+ExecutionTime = 1.4 s  ClockTime = 1 s
+
+Time = 2.1e-07
+
+    WARNING parcel trajectory (5.837518391) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1541
+    Acceptance rate                     = 0.374301676
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.5941562 K == 0.06519815013 eV
+    [Ne]                             = 850.024257 K == 0.0732493222 eV
+    [Ar]                             = 663.1695904 K == 0.05714745503 eV
+----
+
+ExecutionTime = 1.47 s  ClockTime = 1 s
+
+Time = 2.2e-07
+
+    WARNING parcel trajectory (5.837518391) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1553
+    Acceptance rate                     = 0.3776750973
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.7169541 K == 0.06520873202 eV
+    [Ne]                             = 846.4284668 K == 0.0729394614 eV
+    [Ar]                             = 667.0107562 K == 0.05747846063 eV
+----
+
+ExecutionTime = 1.52 s  ClockTime = 1 s
+
+Time = 2.3e-07
+
+    WARNING parcel trajectory (5.837518391) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1558
+    Acceptance rate                     = 0.3779718583
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.6471646 K == 0.06520271804 eV
+    [Ne]                             = 842.7218093 K == 0.07262004681 eV
+    [Ar]                             = 670.5776192 K == 0.05778582868 eV
+----
+
+ExecutionTime = 1.58 s  ClockTime = 1 s
+
+Time = 2.4e-07
+
+    WARNING parcel trajectory (5.045583645) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1549
+    Acceptance rate                     = 0.3728935965
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.5814707 K == 0.06519705698 eV
+    [Ne]                             = 836.8834238 K == 0.07211693437 eV
+    [Ar]                             = 676.2842749 K == 0.05827758955 eV
+----
+
+ExecutionTime = 1.64 s  ClockTime = 1 s
+
+Time = 2.5e-07
+
+    WARNING parcel trajectory (5.045583645) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1512
+    Acceptance rate                     = 0.3647768396
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.5759883 K == 0.06528275776 eV
+    [Ne]                             = 831.8876601 K == 0.07168643335 eV
+    [Ar]                             = 683.2687188 K == 0.05887946152 eV
+----
+
+ExecutionTime = 1.69 s  ClockTime = 1 s
+
+Time = 2.6e-07
+
+    WARNING parcel trajectory (5.045583645) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1556
+    Acceptance rate                     = 0.3754826255
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.8526299 K == 0.06530659686 eV
+    [Ne]                             = 829.1272653 K == 0.07144856126 eV
+    [Ar]                             = 686.5822171 K == 0.05916499632 eV
+----
+
+ExecutionTime = 1.75 s  ClockTime = 1 s
+
+Time = 2.7e-07
+
+    WARNING parcel trajectory (5.045583645) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1492
+    Acceptance rate                     = 0.3592583674
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.4204088 K == 0.06535552419 eV
+    [Ne]                             = 826.4060756 K == 0.0712140676 eV
+    [Ar]                             = 690.4387697 K == 0.05949732785 eV
+----
+
+ExecutionTime = 1.81 s  ClockTime = 1 s
+
+Time = 2.8e-07
+
+    WARNING parcel trajectory (5.045583645) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1473
+    Acceptance rate                     = 0.3534917207
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.5667716 K == 0.06528196352 eV
+    [Ne]                             = 822.6704626 K == 0.07089215782 eV
+    [Ar]                             = 692.4669375 K == 0.05967210159 eV
+----
+
+ExecutionTime = 1.86 s  ClockTime = 1 s
+
+Time = 2.9e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1454
+    Acceptance rate                     = 0.3480967201
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.4564709 K == 0.06518628535 eV
+    [Ne]                             = 821.2014543 K == 0.07076556866 eV
+    [Ar]                             = 691.7153231 K == 0.05960733257 eV
+----
+
+ExecutionTime = 1.92 s  ClockTime = 1 s
+
+Time = 3e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1507
+    Acceptance rate                     = 0.3616510679
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.5670621 K == 0.06519581534 eV
+    [Ne]                             = 817.5733665 K == 0.07045292467 eV
+    [Ar]                             = 695.5643718 K == 0.05993901746 eV
+----
+
+ExecutionTime = 2.07 s  ClockTime = 2 s
+
+Time = 3.1e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1534
+    Acceptance rate                     = 0.366022429
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.166857 K == 0.0652475016 eV
+    [Ne]                             = 815.5381476 K == 0.07027754332 eV
+    [Ar]                             = 698.7990243 K == 0.06021775786 eV
+----
+
+ExecutionTime = 2.12 s  ClockTime = 2 s
+
+Time = 3.2e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1489
+    Acceptance rate                     = 0.3557095079
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.0808029 K == 0.06532625925 eV
+    [Ne]                             = 814.6187378 K == 0.07019831482 eV
+    [Ar]                             = 701.5462174 K == 0.06045449232 eV
+----
+
+ExecutionTime = 2.18 s  ClockTime = 2 s
+
+Time = 3.3e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1473
+    Acceptance rate                     = 0.3504639543
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.8614732 K == 0.06530735891 eV
+    [Ne]                             = 812.3503375 K == 0.07000283947 eV
+    [Ar]                             = 703.3758368 K == 0.06061215651 eV
+----
+
+ExecutionTime = 2.24 s  ClockTime = 2 s
+
+Time = 3.4e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1494
+    Acceptance rate                     = 0.3554603854
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5764687 K == 0.06536897237 eV
+    [Ne]                             = 810.0008888 K == 0.06980037992 eV
+    [Ar]                             = 707.155095 K == 0.06093782733 eV
+----
+
+ExecutionTime = 2.29 s  ClockTime = 2 s
+
+Time = 3.5e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1447
+    Acceptance rate                     = 0.3432977461
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.2480997 K == 0.06534067576 eV
+    [Ne]                             = 807.8288235 K == 0.06961320608 eV
+    [Ar]                             = 708.6703132 K == 0.06106839855 eV
+----
+
+ExecutionTime = 2.35 s  ClockTime = 2 s
+
+Time = 3.6e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1485
+    Acceptance rate                     = 0.3509808556
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.224279 K == 0.06533862305 eV
+    [Ne]                             = 804.3428092 K == 0.06931280502 eV
+    [Ar]                             = 712.1084809 K == 0.06136467652 eV
+----
+
+ExecutionTime = 2.4 s  ClockTime = 2 s
+
+Time = 3.7e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1481
+    Acceptance rate                     = 0.3519486692
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.4719239 K == 0.06527379019 eV
+    [Ne]                             = 804.3793219 K == 0.06931595144 eV
+    [Ar]                             = 710.5673047 K == 0.0612318684 eV
+----
+
+ExecutionTime = 2.46 s  ClockTime = 2 s
+
+Time = 3.8e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1436
+    Acceptance rate                     = 0.3395601797
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.7192635 K == 0.06529510425 eV
+    [Ne]                             = 803.1479419 K == 0.06920983947 eV
+    [Ar]                             = 712.2932764 K == 0.06138060094 eV
+----
+
+ExecutionTime = 2.52 s  ClockTime = 2 s
+
+Time = 3.9e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1472
+    Acceptance rate                     = 0.3490633152
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.2196489 K == 0.06525205084 eV
+    [Ne]                             = 802.8402919 K == 0.06918332828 eV
+    [Ar]                             = 711.6017085 K == 0.06132100631 eV
+----
+
+ExecutionTime = 2.57 s  ClockTime = 2 s
+
+Time = 4e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1539
+    Acceptance rate                     = 0.3634002361
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.495611 K == 0.06518965817 eV
+    [Ne]                             = 798.5421006 K == 0.06881293932 eV
+    [Ar]                             = 714.4516122 K == 0.06156659167 eV
+----
+
+ExecutionTime = 2.72 s  ClockTime = 2 s
+
+Time = 4.1e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1503
+    Acceptance rate                     = 0.3540636042
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.1113463 K == 0.06515654485 eV
+    [Ne]                             = 796.1106167 K == 0.06860341054 eV
+    [Ar]                             = 716.1144455 K == 0.06170988336 eV
+----
+
+ExecutionTime = 2.77 s  ClockTime = 2 s
+
+Time = 4.2e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1507
+    Acceptance rate                     = 0.3553407215
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.0902462 K == 0.06515472658 eV
+    [Ne]                             = 794.3265848 K == 0.06844967477 eV
+    [Ar]                             = 717.8561727 K == 0.06185997359 eV
+----
+
+ExecutionTime = 2.83 s  ClockTime = 2 s
+
+Time = 4.3e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1516
+    Acceptance rate                     = 0.356873823
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.2471777 K == 0.06516824988 eV
+    [Ne]                             = 793.7061139 K == 0.0683962068 eV
+    [Ar]                             = 718.7904606 K == 0.06194048418 eV
+----
+
+ExecutionTime = 2.89 s  ClockTime = 2 s
+
+Time = 4.4e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1425
+    Acceptance rate                     = 0.3356099859
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.2620662 K == 0.06516953286 eV
+    [Ne]                             = 793.6028619 K == 0.06838730924 eV
+    [Ar]                             = 718.9234826 K == 0.06195194711 eV
+----
+
+ExecutionTime = 2.95 s  ClockTime = 3 s
+
+Time = 4.5e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1461
+    Acceptance rate                     = 0.3441696113
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.4663074 K == 0.06518713299 eV
+    [Ne]                             = 792.5146768 K == 0.06829353684 eV
+    [Ar]                             = 720.4200735 K == 0.06208091316 eV
+----
+
+ExecutionTime = 3 s  ClockTime = 3 s
+
+Time = 4.6e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1498
+    Acceptance rate                     = 0.3523876735
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.84211 K == 0.06521951711 eV
+    [Ne]                             = 790.8843355 K == 0.06815304509 eV
+    [Ar]                             = 722.8019012 K == 0.06228616291 eV
+----
+
+ExecutionTime = 3.06 s  ClockTime = 3 s
+
+Time = 4.7e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1464
+    Acceptance rate                     = 0.3443895554
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.7180211 K == 0.06520882397 eV
+    [Ne]                             = 789.0248102 K == 0.06799280382 eV
+    [Ar]                             = 724.4131459 K == 0.06242500904 eV
+----
+
+ExecutionTime = 3.12 s  ClockTime = 3 s
+
+Time = 4.8e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1509
+    Acceptance rate                     = 0.3553933114
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.0357285 K == 0.06523620184 eV
+    [Ne]                             = 787.9108196 K == 0.06789680767 eV
+    [Ar]                             = 726.1624666 K == 0.06257575363 eV
+----
+
+ExecutionTime = 3.17 s  ClockTime = 3 s
+
+Time = 4.9e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1496
+    Acceptance rate                     = 0.3515037594
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.7086099 K == 0.06529418619 eV
+    [Ne]                             = 785.5204881 K == 0.06769082512 eV
+    [Ar]                             = 729.8983795 K == 0.06289768925 eV
+----
+
+ExecutionTime = 3.23 s  ClockTime = 3 s
+
+Time = 5e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1517
+    Acceptance rate                     = 0.3561032864
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.1651381 K == 0.06524735347 eV
+    [Ne]                             = 784.5470025 K == 0.06760693673 eV
+    [Ar]                             = 729.7848958 K == 0.06288791 eV
+----
+
+ExecutionTime = 3.37 s  ClockTime = 3 s
+
+Time = 5.1e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1492
+    Acceptance rate                     = 0.3508111921
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.0284455 K == 0.06523557424 eV
+    [Ne]                             = 785.3739532 K == 0.06767819774 eV
+    [Ar]                             = 728.6846171 K == 0.06279309544 eV
+----
+
+ExecutionTime = 3.43 s  ClockTime = 3 s
+
+Time = 5.2e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1496
+    Acceptance rate                     = 0.3506797937
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.8638094 K == 0.0651352138 eV
+    [Ne]                             = 785.4771058 K == 0.06768708673 eV
+    [Ar]                             = 726.2522672 K == 0.06258349204 eV
+----
+
+ExecutionTime = 3.48 s  ClockTime = 3 s
+
+Time = 5.3e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1468
+    Acceptance rate                     = 0.3436329588
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.7363251 K == 0.06521040128 eV
+    [Ne]                             = 785.4192372 K == 0.0676821 eV
+    [Ar]                             = 728.0551122 K == 0.06273884899 eV
+----
+
+ExecutionTime = 3.54 s  ClockTime = 3 s
+
+Time = 5.4e-07
+
+    WARNING parcel trajectory (6.258182464) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1470
+    Acceptance rate                     = 0.3433777155
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.9994398 K == 0.06523307472 eV
+    [Ne]                             = 783.5870431 K == 0.06752421395 eV
+    [Ar]                             = 730.4134116 K == 0.06294207122 eV
+----
+
+ExecutionTime = 3.6 s  ClockTime = 3 s
+
+Time = 5.5e-07
+
+    WARNING parcel trajectory (6.316191733) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1529
+    Acceptance rate                     = 0.3574100047
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.7081175 K == 0.06520797054 eV
+    [Ne]                             = 782.4430905 K == 0.06742563588 eV
+    [Ar]                             = 730.974669 K == 0.06299043658 eV
+----
+
+ExecutionTime = 3.65 s  ClockTime = 3 s
+
+Time = 5.6e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1492
+    Acceptance rate                     = 0.3489242283
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.9714813 K == 0.06523066545 eV
+    [Ne]                             = 782.7037453 K == 0.06744809734 eV
+    [Ar]                             = 731.2407418 K == 0.06301336493 eV
+----
+
+ExecutionTime = 3.71 s  ClockTime = 3 s
+
+Time = 5.7e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1510
+    Acceptance rate                     = 0.3518993242
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.4924035 K == 0.06527555498 eV
+    [Ne]                             = 783.0654239 K == 0.06747926434 eV
+    [Ar]                             = 731.920898 K == 0.06307197617 eV
+----
+
+ExecutionTime = 3.76 s  ClockTime = 3 s
+
+Time = 5.8e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1464
+    Acceptance rate                     = 0.3424561404
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.4524289 K == 0.06527211025 eV
+    [Ne]                             = 782.6098945 K == 0.06744000991 eV
+    [Ar]                             = 732.2964536 K == 0.06310433901 eV
+----
+
+ExecutionTime = 3.82 s  ClockTime = 3 s
+
+Time = 5.9e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1484
+    Acceptance rate                     = 0.3462435838
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.9471326 K == 0.06531474045 eV
+    [Ne]                             = 782.7377239 K == 0.06745102539 eV
+    [Ar]                             = 733.1580099 K == 0.06317858208 eV
+----
+
+ExecutionTime = 3.88 s  ClockTime = 3 s
+
+Time = 6e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1503
+    Acceptance rate                     = 0.3505948216
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.8108952 K == 0.06530300044 eV
+    [Ne]                             = 781.6104269 K == 0.06735388258 eV
+    [Ar]                             = 734.0127734 K == 0.06325223979 eV
+----
+
+ExecutionTime = 4.02 s  ClockTime = 4 s
+
+Time = 6.1e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1493
+    Acceptance rate                     = 0.3488317757
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.1590381 K == 0.06533300103 eV
+    [Ne]                             = 782.0245757 K == 0.06738957111 eV
+    [Ar]                             = 734.2949143 K == 0.06327655279 eV
+----
+
+ExecutionTime = 4.08 s  ClockTime = 4 s
+
+Time = 6.2e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1495
+    Acceptance rate                     = 0.3479171515
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.6594208 K == 0.0652899474 eV
+    [Ne]                             = 781.224741 K == 0.06732064678 eV
+    [Ar]                             = 734.0954966 K == 0.06325936833 eV
+----
+
+ExecutionTime = 4.13 s  ClockTime = 4 s
+
+Time = 6.3e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1500
+    Acceptance rate                     = 0.3502218071
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.7524926 K == 0.0652979677 eV
+    [Ne]                             = 780.788726 K == 0.06728307397 eV
+    [Ar]                             = 734.717624 K == 0.06331297904 eV
+----
+
+ExecutionTime = 4.19 s  ClockTime = 4 s
+
+Time = 6.4e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1443
+    Acceptance rate                     = 0.3362852482
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.0929624 K == 0.06524113386 eV
+    [Ne]                             = 780.7443513 K == 0.06727925006 eV
+    [Ar]                             = 733.4429746 K == 0.0632031384 eV
+----
+
+ExecutionTime = 4.25 s  ClockTime = 4 s
+
+Time = 6.5e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1491
+    Acceptance rate                     = 0.3471478463
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.793033 K == 0.06521528799 eV
+    [Ne]                             = 778.1765971 K == 0.06705797843 eV
+    [Ar]                             = 735.4107358 K == 0.06337270671 eV
+----
+
+ExecutionTime = 4.31 s  ClockTime = 4 s
+
+Time = 6.6e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1454
+    Acceptance rate                     = 0.3386908922
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.9465042 K == 0.06522851309 eV
+    [Ne]                             = 777.0530995 K == 0.06696116303 eV
+    [Ar]                             = 736.8411 K == 0.06349596579 eV
+----
+
+ExecutionTime = 4.36 s  ClockTime = 4 s
+
+Time = 6.7e-07
+
+    WARNING parcel trajectory (3.003630036) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1480
+    Acceptance rate                     = 0.3454715219
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.4180672 K == 0.06526914919 eV
+    [Ne]                             = 775.4426133 K == 0.06682238226 eV
+    [Ar]                             = 739.3945888 K == 0.06371600813 eV
+----
+
+ExecutionTime = 4.42 s  ClockTime = 4 s
+
+Time = 6.8e-07
+
+    WARNING parcel trajectory (2.978703401) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1513
+    Acceptance rate                     = 0.3497457235
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.3438795 K == 0.06534892941 eV
+    [Ne]                             = 775.2044471 K == 0.06680185871 eV
+    [Ar]                             = 741.4843107 K == 0.06389608618 eV
+----
+
+ExecutionTime = 4.48 s  ClockTime = 4 s
+
+Time = 6.9e-07
+
+    WARNING parcel trajectory (2.978703401) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1487
+    Acceptance rate                     = 0.3450916686
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.126222 K == 0.06533017316 eV
+    [Ne]                             = 774.4288735 K == 0.06673502504 eV
+    [Ar]                             = 741.8245362 K == 0.0639254045 eV
+----
+
+ExecutionTime = 4.53 s  ClockTime = 4 s
+
+Time = 7e-07
+
+    WARNING parcel trajectory (2.978703401) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1494
+    Acceptance rate                     = 0.3464749536
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.1430868 K == 0.06524545324 eV
+    [Ne]                             = 771.2478228 K == 0.06646090368 eV
+    [Ar]                             = 743.0391863 K == 0.06403007481 eV
+----
+
+ExecutionTime = 4.67 s  ClockTime = 4 s
+
+Time = 7.1e-07
+
+    WARNING parcel trajectory (2.978703401) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1516
+    Acceptance rate                     = 0.3519851405
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.6905483 K == 0.06520645655 eV
+    [Ne]                             = 770.8260003 K == 0.06642455388 eV
+    [Ar]                             = 742.5559337 K == 0.06398843138 eV
+----
+
+ExecutionTime = 4.73 s  ClockTime = 4 s
+
+Time = 7.2e-07
+
+    WARNING parcel trajectory (2.978703401) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1526
+    Acceptance rate                     = 0.3540603248
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.9764163 K == 0.0651449175 eV
+    [Ne]                             = 772.4112519 K == 0.06656116011 eV
+    [Ar]                             = 739.5425544 K == 0.0637287588 eV
+----
+
+ExecutionTime = 4.79 s  ClockTime = 4 s
+
+Time = 7.3e-07
+
+    WARNING parcel trajectory (2.978703401) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1489
+    Acceptance rate                     = 0.3450753187
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.7292622 K == 0.06520979265 eV
+    [Ne]                             = 772.3831243 K == 0.06655873626 eV
+    [Ar]                             = 741.0763275 K == 0.06386092896 eV
+----
+
+ExecutionTime = 4.84 s  ClockTime = 4 s
+
+Time = 7.4e-07
+
+    WARNING parcel trajectory (2.978703401) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1540
+    Acceptance rate                     = 0.3568118628
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.8819274 K == 0.0652229483 eV
+    [Ne]                             = 773.1973411 K == 0.06662889993 eV
+    [Ar]                             = 740.5674803 K == 0.06381707996 eV
+----
+
+ExecutionTime = 4.9 s  ClockTime = 4 s
+
+Time = 7.5e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1476
+    Acceptance rate                     = 0.3410351201
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.9210819 K == 0.06531249558 eV
+    [Ne]                             = 772.0731211 K == 0.06653202228 eV
+    [Ar]                             = 743.7698811 K == 0.06409304113 eV
+----
+
+ExecutionTime = 4.95 s  ClockTime = 5 s
+
+Time = 7.6e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1542
+    Acceptance rate                     = 0.3559556787
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.7428616 K == 0.06538331098 eV
+    [Ne]                             = 770.1018053 K == 0.06636214767 eV
+    [Ar]                             = 747.3845909 K == 0.06440453229 eV
+----
+
+ExecutionTime = 5.02 s  ClockTime = 5 s
+
+Time = 7.7e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1489
+    Acceptance rate                     = 0.3430085234
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5883969 K == 0.06537000026 eV
+    [Ne]                             = 769.3246248 K == 0.06629517552 eV
+    [Ar]                             = 747.8528051 K == 0.06444487982 eV
+----
+
+ExecutionTime = 5.07 s  ClockTime = 5 s
+
+Time = 7.8e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1443
+    Acceptance rate                     = 0.3319530711
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.598155 K == 0.06545701436 eV
+    [Ne]                             = 770.155738 K == 0.06636679522 eV
+    [Ar]                             = 749.0411975 K == 0.0645472874 eV
+----
+
+ExecutionTime = 5.13 s  ClockTime = 5 s
+
+Time = 7.9e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1440
+    Acceptance rate                     = 0.3309584004
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.54851 K == 0.06545273629 eV
+    [Ne]                             = 770.453739 K == 0.06639247492 eV
+    [Ar]                             = 748.6439271 K == 0.06451305334 eV
+----
+
+ExecutionTime = 5.18 s  ClockTime = 5 s
+
+Time = 8e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1459
+    Acceptance rate                     = 0.3357109986
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.496698 K == 0.06536209827 eV
+    [Ne]                             = 769.2287123 K == 0.06628691043 eV
+    [Ar]                             = 747.7653196 K == 0.0644373409 eV
+----
+
+ExecutionTime = 5.33 s  ClockTime = 5 s
+
+Time = 8.1e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1525
+    Acceptance rate                     = 0.3506553231
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.6821538 K == 0.06537807959 eV
+    [Ne]                             = 768.8571242 K == 0.0662548895 eV
+    [Ar]                             = 748.5077861 K == 0.06450132163 eV
+----
+
+ExecutionTime = 5.39 s  ClockTime = 5 s
+
+Time = 8.2e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1499
+    Acceptance rate                     = 0.3450736648
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.8067562 K == 0.06538881698 eV
+    [Ne]                             = 768.6730203 K == 0.06623902467 eV
+    [Ar]                             = 748.9410766 K == 0.06453865966 eV
+----
+
+ExecutionTime = 5.44 s  ClockTime = 5 s
+
+Time = 8.3e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1470
+    Acceptance rate                     = 0.3371559633
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.8595499 K == 0.06539336638 eV
+    [Ne]                             = 768.2246346 K == 0.06620038584 eV
+    [Ar]                             = 749.4950199 K == 0.06458639474 eV
+----
+
+ExecutionTime = 5.5 s  ClockTime = 5 s
+
+Time = 8.4e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1485
+    Acceptance rate                     = 0.3415363385
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.7428652 K == 0.0654694845 eV
+    [Ne]                             = 767.8069134 K == 0.06616438946 eV
+    [Ar]                             = 751.6792946 K == 0.06477462071 eV
+----
+
+ExecutionTime = 5.55 s  ClockTime = 5 s
+
+Time = 8.5e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1513
+    Acceptance rate                     = 0.3466208477
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.5810476 K == 0.06545554016 eV
+    [Ne]                             = 766.3243474 K == 0.06603663198 eV
+    [Ar]                             = 752.8381472 K == 0.06487448277 eV
+----
+
+ExecutionTime = 5.61 s  ClockTime = 5 s
+
+Time = 8.6e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1507
+    Acceptance rate                     = 0.3461980244
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.5641566 K == 0.06545408461 eV
+    [Ne]                             = 766.9438243 K == 0.06609001429 eV
+    [Ar]                             = 752.184926 K == 0.06481819259 eV
+----
+
+ExecutionTime = 5.66 s  ClockTime = 5 s
+
+Time = 8.7e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1446
+    Acceptance rate                     = 0.3321084061
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 760.1166712 K == 0.06550169657 eV
+    [Ne]                             = 767.544771 K == 0.0661417998 eV
+    [Ar]                             = 752.6890116 K == 0.06486163126 eV
+----
+
+ExecutionTime = 5.72 s  ClockTime = 5 s
+
+Time = 8.8e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1557
+    Acceptance rate                     = 0.3565376689
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.1877689 K == 0.06542165007 eV
+    [Ne]                             = 768.5306616 K == 0.06622675716 eV
+    [Ar]                             = 749.8454297 K == 0.06461659067 eV
+----
+
+ExecutionTime = 5.78 s  ClockTime = 5 s
+
+Time = 8.9e-07
+
+    WARNING parcel trajectory (3.64857169) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1451
+    Acceptance rate                     = 0.3320366133
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.7141821 K == 0.06546701279 eV
+    [Ne]                             = 769.4206971 K == 0.06630345438 eV
+    [Ar]                             = 750.0082421 K == 0.06463062074 eV
+----
+
+ExecutionTime = 5.83 s  ClockTime = 5 s
+
+Time = 9e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1530
+    Acceptance rate                     = 0.3502747253
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.7627921 K == 0.06547120167 eV
+    [Ne]                             = 769.7901147 K == 0.06633528829 eV
+    [Ar]                             = 749.7360636 K == 0.06460716625 eV
+----
+
+ExecutionTime = 5.98 s  ClockTime = 6 s
+
+Time = 9.1e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1469
+    Acceptance rate                     = 0.3355413431
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.6595739 K == 0.06546230702 eV
+    [Ne]                             = 769.2106468 K == 0.06628535368 eV
+    [Ar]                             = 750.1090667 K == 0.06463930912 eV
+----
+
+ExecutionTime = 6.04 s  ClockTime = 6 s
+
+Time = 9.2e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1438
+    Acceptance rate                     = 0.3286857143
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.5492383 K == 0.06545279906 eV
+    [Ne]                             = 770.4310595 K == 0.06639052056 eV
+    [Ar]                             = 748.6680619 K == 0.06451513311 eV
+----
+
+ExecutionTime = 6.09 s  ClockTime = 6 s
+
+Time = 9.3e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1509
+    Acceptance rate                     = 0.3449142857
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.0918572 K == 0.06541338506 eV
+    [Ne]                             = 770.1038748 K == 0.066362326 eV
+    [Ar]                             = 748.0804921 K == 0.06446450033 eV
+----
+
+ExecutionTime = 6.15 s  ClockTime = 6 s
+
+Time = 9.4e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1483
+    Acceptance rate                     = 0.3390489255
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.35602 K == 0.06543614881 eV
+    [Ne]                             = 770.7666158 K == 0.06641943652 eV
+    [Ar]                             = 747.9461003 K == 0.06445291936 eV
+----
+
+ExecutionTime = 6.21 s  ClockTime = 6 s
+
+Time = 9.5e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1568
+    Acceptance rate                     = 0.3580726193
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.8247551 K == 0.065390368 eV
+    [Ne]                             = 771.8052626 K == 0.06650894005 eV
+    [Ar]                             = 745.8450166 K == 0.06427186222 eV
+----
+
+ExecutionTime = 6.26 s  ClockTime = 6 s
+
+Time = 9.6e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1520
+    Acceptance rate                     = 0.3471904979
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5536759 K == 0.06536700824 eV
+    [Ne]                             = 770.6397662 K == 0.06640850548 eV
+    [Ar]                             = 746.4683016 K == 0.0643255727 eV
+----
+
+ExecutionTime = 6.32 s  ClockTime = 6 s
+
+Time = 9.7e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1417
+    Acceptance rate                     = 0.3237377199
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5139474 K == 0.06536358471 eV
+    [Ne]                             = 771.4555346 K == 0.06647880287 eV
+    [Ar]                             = 745.5731269 K == 0.06424843262 eV
+----
+
+ExecutionTime = 6.37 s  ClockTime = 6 s
+
+Time = 9.8e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1523
+    Acceptance rate                     = 0.3473204105
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.2216884 K == 0.06533839981 eV
+    [Ne]                             = 772.0677311 K == 0.06653155781 eV
+    [Ar]                             = 744.376466 K == 0.06414531249 eV
+----
+
+ExecutionTime = 6.43 s  ClockTime = 6 s
+
+Time = 9.9e-07
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1499
+    Acceptance rate                     = 0.3420812414
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.9229385 K == 0.06531265557 eV
+    [Ne]                             = 771.5219509 K == 0.06648452618 eV
+    [Ar]                             = 744.3247317 K == 0.06414085439 eV
+----
+
+ExecutionTime = 6.48 s  ClockTime = 6 s
+
+Time = 1e-06
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1463
+    Acceptance rate                     = 0.3337135036
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.6572235 K == 0.06528975806 eV
+    [Ne]                             = 772.2138976 K == 0.06654415345 eV
+    [Ar]                             = 743.1014118 K == 0.06403543698 eV
+----
+
+ExecutionTime = 6.62 s  ClockTime = 6 s
+
+Time = 1.01e-06
+
+    WARNING parcel trajectory (5.951254087) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1492
+    Acceptance rate                     = 0.3388598683
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.563103 K == 0.06528164739 eV
+    [Ne]                             = 771.8869297 K == 0.06651597757 eV
+    [Ar]                             = 743.2401249 K == 0.06404739033 eV
+----
+
+ExecutionTime = 6.68 s  ClockTime = 6 s
+
+Time = 1.02e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1508
+    Acceptance rate                     = 0.3440565822
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.6843765 K == 0.06529209791 eV
+    [Ne]                             = 771.3219836 K == 0.06646729435 eV
+    [Ar]                             = 744.0475772 K == 0.0641169711 eV
+----
+
+ExecutionTime = 6.74 s  ClockTime = 6 s
+
+Time = 1.03e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1480
+    Acceptance rate                     = 0.3366696997
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.6246649 K == 0.06537312559 eV
+    [Ne]                             = 769.6427048 K == 0.0663225855 eV
+    [Ar]                             = 747.6072777 K == 0.06442372193 eV
+----
+
+ExecutionTime = 6.79 s  ClockTime = 6 s
+
+Time = 1.04e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1444
+    Acceptance rate                     = 0.3279582103
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.7389562 K == 0.06538297444 eV
+    [Ne]                             = 769.725464 K == 0.06632971712 eV
+    [Ar]                             = 747.7530993 K == 0.06443628784 eV
+----
+
+ExecutionTime = 6.85 s  ClockTime = 6 s
+
+Time = 1.05e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1494
+    Acceptance rate                     = 0.3394683027
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.8780782 K == 0.06539496303 eV
+    [Ne]                             = 769.479013 K == 0.06630847966 eV
+    [Ar]                             = 748.2777713 K == 0.06448150052 eV
+----
+
+ExecutionTime = 6.9 s  ClockTime = 6 s
+
+Time = 1.06e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1493
+    Acceptance rate                     = 0.3399362477
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.2452332 K == 0.06534042874 eV
+    [Ne]                             = 767.7457778 K == 0.0661591212 eV
+    [Ar]                             = 748.7452515 K == 0.06452178479 eV
+----
+
+ExecutionTime = 6.96 s  ClockTime = 7 s
+
+Time = 1.07e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1395
+    Acceptance rate                     = 0.3169014085
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.6559106 K == 0.06528964492 eV
+    [Ne]                             = 766.122038 K == 0.06601919833 eV
+    [Ar]                             = 749.1902848 K == 0.06456013474 eV
+----
+
+ExecutionTime = 7.01 s  ClockTime = 7 s
+
+Time = 1.08e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1478
+    Acceptance rate                     = 0.335680218
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.3233892 K == 0.06526099049 eV
+    [Ne]                             = 765.6551454 K == 0.06597896469 eV
+    [Ar]                             = 748.9921267 K == 0.06454305882 eV
+----
+
+ExecutionTime = 7.07 s  ClockTime = 7 s
+
+Time = 1.09e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1458
+    Acceptance rate                     = 0.3318161129
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.2679539 K == 0.06517004023 eV
+    [Ne]                             = 762.0575632 K == 0.06566894947 eV
+    [Ar]                             = 750.4786876 K == 0.06467116055 eV
+----
+
+ExecutionTime = 7.12 s  ClockTime = 7 s
+
+Time = 1.1e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1541
+    Acceptance rate                     = 0.3503865393
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.8158286 K == 0.06513107914 eV
+    [Ne]                             = 760.1743048 K == 0.06550666304 eV
+    [Ar]                             = 751.4576105 K == 0.06475551748 eV
+----
+
+ExecutionTime = 7.27 s  ClockTime = 7 s
+
+Time = 1.11e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1466
+    Acceptance rate                     = 0.3328036322
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.9425742 K == 0.06505582801 eV
+    [Ne]                             = 759.7629363 K == 0.06547121409 eV
+    [Ar]                             = 750.1224978 K == 0.06464046652 eV
+----
+
+ExecutionTime = 7.32 s  ClockTime = 7 s
+
+Time = 1.12e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1456
+    Acceptance rate                     = 0.3309090909
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.383097 K == 0.06509378927 eV
+    [Ne]                             = 759.2025991 K == 0.06542292804 eV
+    [Ar]                             = 751.5638211 K == 0.06476466999 eV
+----
+
+ExecutionTime = 7.38 s  ClockTime = 7 s
+
+Time = 1.13e-06
+
+    WARNING parcel trajectory (6.999989465) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1436
+    Acceptance rate                     = 0.325549762
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.7787436 K == 0.06504171019 eV
+    [Ne]                             = 759.4374328 K == 0.06544316442 eV
+    [Ar]                             = 750.1203303 K == 0.06464027974 eV
+----
+
+ExecutionTime = 7.44 s  ClockTime = 7 s
+
+Time = 1.14e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1428
+    Acceptance rate                     = 0.3252106582
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.9839506 K == 0.06505939354 eV
+    [Ne]                             = 758.8029209 K == 0.06538848649 eV
+    [Ar]                             = 751.1652066 K == 0.0647303201 eV
+----
+
+ExecutionTime = 7.49 s  ClockTime = 7 s
+
+Time = 1.15e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1458
+    Acceptance rate                     = 0.3310626703
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.0347447 K == 0.06506377063 eV
+    [Ne]                             = 758.0012039 K == 0.06531939995 eV
+    [Ar]                             = 752.0684613 K == 0.06480815646 eV
+----
+
+ExecutionTime = 7.55 s  ClockTime = 7 s
+
+Time = 1.16e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1436
+    Acceptance rate                     = 0.3260672116
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.7418072 K == 0.06512470047 eV
+    [Ne]                             = 756.4047826 K == 0.06518183119 eV
+    [Ar]                             = 755.078871 K == 0.06506757314 eV
+----
+
+ExecutionTime = 7.6 s  ClockTime = 7 s
+
+Time = 1.17e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1487
+    Acceptance rate                     = 0.3380313708
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.1469044 K == 0.065159609 eV
+    [Ne]                             = 756.2651372 K == 0.0651697975 eV
+    [Ar]                             = 756.0286786 K == 0.06514942111 eV
+----
+
+ExecutionTime = 7.66 s  ClockTime = 7 s
+
+Time = 1.18e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1507
+    Acceptance rate                     = 0.3418008619
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.2328875 K == 0.06516701845 eV
+    [Ne]                             = 755.407126 K == 0.06509585992 eV
+    [Ar]                             = 757.0586002 K == 0.06523817276 eV
+----
+
+ExecutionTime = 7.71 s  ClockTime = 7 s
+
+Time = 1.19e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1483
+    Acceptance rate                     = 0.3365100976
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.1090165 K == 0.06515634408 eV
+    [Ne]                             = 754.6953731 K == 0.06503452589 eV
+    [Ar]                             = 757.522576 K == 0.06527815505 eV
+----
+
+ExecutionTime = 7.77 s  ClockTime = 7 s
+
+Time = 1.2e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1495
+    Acceptance rate                     = 0.3402366864
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.9384454 K == 0.06514164542 eV
+    [Ne]                             = 753.7982553 K == 0.06495721836 eV
+    [Ar]                             = 758.0785087 K == 0.06532606156 eV
+----
+
+ExecutionTime = 7.91 s  ClockTime = 7 s
+
+Time = 1.21e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1463
+    Acceptance rate                     = 0.332122588
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.1242565 K == 0.06533000379 eV
+    [Ne]                             = 754.538464 K == 0.06502100452 eV
+    [Ar]                             = 761.7098367 K == 0.06563898476 eV
+----
+
+ExecutionTime = 7.97 s  ClockTime = 8 s
+
+Time = 1.22e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1483
+    Acceptance rate                     = 0.3369688707
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.7523409 K == 0.06529795463 eV
+    [Ne]                             = 754.2515394 K == 0.06499627932 eV
+    [Ar]                             = 761.2529349 K == 0.06559961207 eV
+----
+
+ExecutionTime = 8.02 s  ClockTime = 8 s
+
+Time = 1.23e-06
+
+    WARNING parcel trajectory (6.639874612) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1430
+    Acceptance rate                     = 0.3240426014
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.2268592 K == 0.06533884539 eV
+    [Ne]                             = 756.2053831 K == 0.0651646483 eV
+    [Ar]                             = 760.2482155 K == 0.06551303217 eV
+----
+
+ExecutionTime = 8.08 s  ClockTime = 8 s
+
+Time = 1.24e-06
+
+    WARNING parcel trajectory (6.81336741) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1506
+    Acceptance rate                     = 0.3420395185
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.0330102 K == 0.0653221408 eV
+    [Ne]                             = 757.479311 K == 0.06527442677 eV
+    [Ar]                             = 758.5866766 K == 0.06536985201 eV
+----
+
+ExecutionTime = 8.13 s  ClockTime = 8 s
+
+Time = 1.25e-06
+
+    WARNING parcel trajectory (6.81336741) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1465
+    Acceptance rate                     = 0.3328788912
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.2915617 K == 0.06534442102 eV
+    [Ne]                             = 758.0018943 K == 0.06531945945 eV
+    [Ar]                             = 758.5812118 K == 0.0653693811 eV
+----
+
+ExecutionTime = 8.19 s  ClockTime = 8 s
+
+Time = 1.26e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1474
+    Acceptance rate                     = 0.3347717465
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.4364527 K == 0.06535690674 eV
+    [Ne]                             = 757.6998714 K == 0.06529343316 eV
+    [Ar]                             = 759.1729904 K == 0.06542037657 eV
+----
+
+ExecutionTime = 8.24 s  ClockTime = 8 s
+
+Time = 1.27e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1439
+    Acceptance rate                     = 0.3263038549
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.4804084 K == 0.06536069454 eV
+    [Ne]                             = 759.2973414 K == 0.06543109228 eV
+    [Ar]                             = 757.6635238 K == 0.06529030097 eV
+----
+
+ExecutionTime = 8.3 s  ClockTime = 8 s
+
+Time = 1.28e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1427
+    Acceptance rate                     = 0.3235827664
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.6908055 K == 0.06537882514 eV
+    [Ne]                             = 758.9759143 K == 0.06540339388 eV
+    [Ar]                             = 758.4057136 K == 0.06535425785 eV
+----
+
+ExecutionTime = 8.35 s  ClockTime = 8 s
+
+Time = 1.29e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1421
+    Acceptance rate                     = 0.3225147526
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.9302684 K == 0.06539946042 eV
+    [Ne]                             = 760.1591946 K == 0.06550536095 eV
+    [Ar]                             = 757.7014149 K == 0.06529356617 eV
+----
+
+ExecutionTime = 8.41 s  ClockTime = 8 s
+
+Time = 1.3e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1439
+    Acceptance rate                     = 0.3266000908
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.2318719 K == 0.06542545057 eV
+    [Ne]                             = 759.6643064 K == 0.06546271484 eV
+    [Ar]                             = 758.7994631 K == 0.06538818851 eV
+----
+
+ExecutionTime = 8.56 s  ClockTime = 8 s
+
+Time = 1.31e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1488
+    Acceptance rate                     = 0.3369565217
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.3739166 K == 0.06543769102 eV
+    [Ne]                             = 761.9208253 K == 0.06565716633 eV
+    [Ar]                             = 756.8271588 K == 0.06521822871 eV
+----
+
+ExecutionTime = 8.61 s  ClockTime = 8 s
+
+Time = 1.32e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1487
+    Acceptance rate                     = 0.3370353581
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.6179455 K == 0.06545871977 eV
+    [Ne]                             = 762.0888011 K == 0.06567164135 eV
+    [Ar]                             = 757.1472362 K == 0.06524581081 eV
+----
+
+ExecutionTime = 8.67 s  ClockTime = 8 s
+
+Time = 1.33e-06
+
+    WARNING parcel trajectory (5.753787685) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1491
+    Acceptance rate                     = 0.3377123443
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.2804456 K == 0.06542963632 eV
+    [Ne]                             = 762.0571574 K == 0.0656689145 eV
+    [Ar]                             = 756.5038983 K == 0.06519037231 eV
+----
+
+ExecutionTime = 8.72 s  ClockTime = 8 s
+
+Time = 1.34e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1473
+    Acceptance rate                     = 0.3330318788
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.6259237 K == 0.06545940728 eV
+    [Ne]                             = 762.4864187 K == 0.06570590533 eV
+    [Ar]                             = 756.7655982 K == 0.06521292384 eV
+----
+
+ExecutionTime = 8.78 s  ClockTime = 8 s
+
+Time = 1.35e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1507
+    Acceptance rate                     = 0.341723356
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.1093191 K == 0.0654148898 eV
+    [Ne]                             = 762.5938593 K == 0.06571516383 eV
+    [Ar]                             = 755.6249854 K == 0.06511463357 eV
+----
+
+ExecutionTime = 8.83 s  ClockTime = 8 s
+
+Time = 1.36e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1492
+    Acceptance rate                     = 0.3374038896
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.7938149 K == 0.06538770179 eV
+    [Ne]                             = 762.2118929 K == 0.06568224856 eV
+    [Ar]                             = 755.3759394 K == 0.06509317247 eV
+----
+
+ExecutionTime = 8.89 s  ClockTime = 8 s
+
+Time = 1.37e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1474
+    Acceptance rate                     = 0.3338618347
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5613205 K == 0.065367667 eV
+    [Ne]                             = 762.6576443 K == 0.06572066038 eV
+    [Ar]                             = 754.4652394 K == 0.06501469453 eV
+----
+
+ExecutionTime = 8.94 s  ClockTime = 9 s
+
+Time = 1.38e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1477
+    Acceptance rate                     = 0.3337098961
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.1154508 K == 0.06532924497 eV
+    [Ne]                             = 762.0885808 K == 0.06567162236 eV
+    [Ar]                             = 754.142556 K == 0.06498688787 eV
+----
+
+ExecutionTime = 9.01 s  ClockTime = 9 s
+
+Time = 1.39e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1510
+    Acceptance rate                     = 0.3423260032
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 759.2729607 K == 0.06542899132 eV
+    [Ne]                             = 762.7483622 K == 0.06572847784 eV
+    [Ar]                             = 755.7977651 K == 0.06512952255 eV
+----
+
+ExecutionTime = 9.06 s  ClockTime = 9 s
+
+Time = 1.4e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1404
+    Acceptance rate                     = 0.3179347826
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.9102074 K == 0.0653977317 eV
+    [Ne]                             = 762.4214341 K == 0.06570030539 eV
+    [Ar]                             = 755.3991887 K == 0.06509517594 eV
+----
+
+ExecutionTime = 9.21 s  ClockTime = 9 s
+
+Time = 1.41e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1479
+    Acceptance rate                     = 0.3340862887
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.8012585 K == 0.06530217002 eV
+    [Ne]                             = 761.6280127 K == 0.06563193373 eV
+    [Ar]                             = 753.9747311 K == 0.06497242585 eV
+----
+
+ExecutionTime = 9.26 s  ClockTime = 9 s
+
+Time = 1.42e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1433
+    Acceptance rate                     = 0.3236955049
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5624769 K == 0.06536776665 eV
+    [Ne]                             = 763.5196421 K == 0.06579494151 eV
+    [Ar]                             = 753.6056054 K == 0.06494061711 eV
+----
+
+ExecutionTime = 9.32 s  ClockTime = 9 s
+
+Time = 1.43e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1518
+    Acceptance rate                     = 0.3429733394
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5256932 K == 0.06536459688 eV
+    [Ne]                             = 761.6885575 K == 0.06563715107 eV
+    [Ar]                             = 755.3630163 K == 0.06509205885 eV
+----
+
+ExecutionTime = 9.38 s  ClockTime = 9 s
+
+Time = 1.44e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1495
+    Acceptance rate                     = 0.3378531073
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.6739139 K == 0.06537736953 eV
+    [Ne]                             = 761.50015 K == 0.06562091538 eV
+    [Ar]                             = 755.8478452 K == 0.06513383811 eV
+----
+
+ExecutionTime = 9.43 s  ClockTime = 9 s
+
+Time = 1.45e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1476
+    Acceptance rate                     = 0.3339366516
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.9435843 K == 0.0654006079 eV
+    [Ne]                             = 761.4362569 K == 0.06561540951 eV
+    [Ar]                             = 756.4510595 K == 0.06518581903 eV
+----
+
+ExecutionTime = 9.49 s  ClockTime = 9 s
+
+Time = 1.46e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1430
+    Acceptance rate                     = 0.3233099706
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.9975057 K == 0.06540525448 eV
+    [Ne]                             = 762.009178 K == 0.06566477996 eV
+    [Ar]                             = 755.9860119 K == 0.06514574438 eV
+----
+
+ExecutionTime = 9.54 s  ClockTime = 9 s
+
+Time = 1.47e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1450
+    Acceptance rate                     = 0.327166065
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.9207802 K == 0.06531246958 eV
+    [Ne]                             = 763.8234902 K == 0.06582112507 eV
+    [Ar]                             = 752.0184199 K == 0.06480384422 eV
+----
+
+ExecutionTime = 9.6 s  ClockTime = 9 s
+
+Time = 1.48e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1482
+    Acceptance rate                     = 0.334537246
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 758.5053719 K == 0.06536284573 eV
+    [Ne]                             = 761.3356924 K == 0.06560674354 eV
+    [Ar]                             = 755.6752191 K == 0.06511896237 eV
+----
+
+ExecutionTime = 9.65 s  ClockTime = 9 s
+
+Time = 1.49e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1448
+    Acceptance rate                     = 0.326273096
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.2532668 K == 0.06525494781 eV
+    [Ne]                             = 763.2707719 K == 0.06577349557 eV
+    [Ar]                             = 751.2361181 K == 0.06473643077 eV
+----
+
+ExecutionTime = 9.71 s  ClockTime = 9 s
+
+Time = 1.5e-06
+
+    WARNING parcel trajectory (5.684829608) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1552
+    Acceptance rate                     = 0.3503386005
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.7066164 K == 0.06520784119 eV
+    [Ne]                             = 761.4967012 K == 0.06562061819 eV
+    [Ar]                             = 751.9168155 K == 0.06479508865 eV
+----
+
+ExecutionTime = 9.86 s  ClockTime = 9 s
+
+Time = 1.51e-06
+
+    WARNING parcel trajectory (6.988648845) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1502
+    Acceptance rate                     = 0.3379077615
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.515024 K == 0.06519133106 eV
+    [Ne]                             = 760.7318522 K == 0.06555470869 eV
+    [Ar]                             = 752.2984457 K == 0.06482797495 eV
+----
+
+ExecutionTime = 9.92 s  ClockTime = 9 s
+
+Time = 1.52e-06
+
+    WARNING parcel trajectory (6.988648845) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1517
+    Acceptance rate                     = 0.3427474017
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.0615354 K == 0.0652384257 eV
+    [Ne]                             = 762.2395812 K == 0.06568463454 eV
+    [Ar]                             = 751.8837965 K == 0.06479224329 eV
+----
+
+ExecutionTime = 9.97 s  ClockTime = 10 s
+
+Time = 1.53e-06
+
+    WARNING parcel trajectory (6.988648845) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1443
+    Acceptance rate                     = 0.3255866426
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.6378663 K == 0.06520191677 eV
+    [Ne]                             = 761.3303151 K == 0.06560628017 eV
+    [Ar]                             = 751.9456955 K == 0.06479757733 eV
+----
+
+ExecutionTime = 10.03 s  ClockTime = 10 s
+
+Time = 1.54e-06
+
+    WARNING parcel trajectory (2.236405824) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1473
+    Acceptance rate                     = 0.3318314936
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.4664878 K == 0.06527332175 eV
+    [Ne]                             = 762.667773 K == 0.06572153321 eV
+    [Ar]                             = 752.2655107 K == 0.06482513684 eV
+----
+
+ExecutionTime = 10.08 s  ClockTime = 10 s
+
+Time = 1.55e-06
+
+    WARNING parcel trajectory (2.236405824) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1502
+    Acceptance rate                     = 0.3396653098
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 757.09516 K == 0.06524132323 eV
+    [Ne]                             = 761.7060809 K == 0.06563866111 eV
+    [Ar]                             = 752.4845122 K == 0.0648440089 eV
+----
+
+ExecutionTime = 10.14 s  ClockTime = 10 s
+
+Time = 1.56e-06
+
+    WARNING parcel trajectory (2.236405824) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1492
+    Acceptance rate                     = 0.3372513562
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.4390721 K == 0.06518478603 eV
+    [Ne]                             = 760.721301 K == 0.06555379946 eV
+    [Ar]                             = 752.1570968 K == 0.06481579447 eV
+----
+
+ExecutionTime = 10.2 s  ClockTime = 10 s
+
+Time = 1.57e-06
+
+    WARNING parcel trajectory (2.236405824) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1471
+    Acceptance rate                     = 0.3318294609
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.0083546 K == 0.06514766973 eV
+    [Ne]                             = 759.5975453 K == 0.06545696182 eV
+    [Ar]                             = 752.4193766 K == 0.06483839596 eV
+----
+
+ExecutionTime = 10.25 s  ClockTime = 10 s
+
+Time = 1.58e-06
+
+    WARNING parcel trajectory (2.236405824) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1477
+    Acceptance rate                     = 0.3337853107
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.6383971 K == 0.0651157893 eV
+    [Ne]                             = 760.4730254 K == 0.06553240476 eV
+    [Ar]                             = 750.8040552 K == 0.06469919852 eV
+----
+
+ExecutionTime = 10.31 s  ClockTime = 10 s
+
+Time = 1.59e-06
+
+    WARNING parcel trajectory (2.236405824) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1486
+    Acceptance rate                     = 0.3355159178
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.2392706 K == 0.06499522207 eV
+    [Ne]                             = 759.7977391 K == 0.06547421316 eV
+    [Ar]                             = 748.6811314 K == 0.06451625935 eV
+----
+
+ExecutionTime = 10.36 s  ClockTime = 10 s
+
+Time = 1.6e-06
+
+    WARNING parcel trajectory (2.236405824) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1479
+    Acceptance rate                     = 0.3334836528
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.3338854 K == 0.06500337533 eV
+    [Ne]                             = 759.2448283 K == 0.06542656706 eV
+    [Ar]                             = 749.4232334 K == 0.06458020867 eV
+----
+
+ExecutionTime = 10.51 s  ClockTime = 10 s
+
+Time = 1.61e-06
+
+    WARNING parcel trajectory (3.851827944) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1531
+    Acceptance rate                     = 0.3447421752
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.430752 K == 0.06501172264 eV
+    [Ne]                             = 759.5926605 K == 0.06545654089 eV
+    [Ar]                             = 749.2691493 K == 0.06456693075 eV
+----
+
+ExecutionTime = 10.56 s  ClockTime = 10 s
+
+Time = 1.62e-06
+
+    WARNING parcel trajectory (3.851827944) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1479
+    Acceptance rate                     = 0.3334836528
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.2190625 K == 0.06499348067 eV
+    [Ne]                             = 757.9641357 K == 0.06531620567 eV
+    [Ar]                             = 750.474211 K == 0.06467077479 eV
+----
+
+ExecutionTime = 10.62 s  ClockTime = 10 s
+
+Time = 1.63e-06
+
+    WARNING parcel trajectory (3.851827944) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1435
+    Acceptance rate                     = 0.3226894536
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.1935436 K == 0.06507745484 eV
+    [Ne]                             = 757.7652635 K == 0.06529906821 eV
+    [Ar]                             = 752.6219761 K == 0.0648558546 eV
+----
+
+ExecutionTime = 10.67 s  ClockTime = 10 s
+
+Time = 1.64e-06
+
+    WARNING parcel trajectory (3.851827944) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1491
+    Acceptance rate                     = 0.3361894025
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.0655061 K == 0.06498024823 eV
+    [Ne]                             = 756.6468531 K == 0.0652026912 eV
+    [Ar]                             = 751.484312 K == 0.06475781843 eV
+----
+
+ExecutionTime = 10.73 s  ClockTime = 10 s
+
+Time = 1.65e-06
+
+    WARNING parcel trajectory (3.981247659) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1387
+    Acceptance rate                     = 0.311965812
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.4618639 K == 0.06501440365 eV
+    [Ne]                             = 755.9944843 K == 0.06514647447 eV
+    [Ar]                             = 752.9293342 K == 0.06488234064 eV
+----
+
+ExecutionTime = 10.79 s  ClockTime = 10 s
+
+Time = 1.66e-06
+
+    WARNING parcel trajectory (5.326875138) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1507
+    Acceptance rate                     = 0.3391852352
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.9571958 K == 0.065057088 eV
+    [Ne]                             = 755.1602195 K == 0.0650745832 eV
+    [Ar]                             = 754.7541842 K == 0.06503959383 eV
+----
+
+ExecutionTime = 10.84 s  ClockTime = 10 s
+
+Time = 1.67e-06
+
+    WARNING parcel trajectory (5.326875138) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1492
+    Acceptance rate                     = 0.336036036
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.2218368 K == 0.06499371974 eV
+    [Ne]                             = 756.3096863 K == 0.06517363644 eV
+    [Ar]                             = 752.1341111 K == 0.06481381371 eV
+----
+
+ExecutionTime = 10.9 s  ClockTime = 10 s
+
+Time = 1.68e-06
+
+    WARNING parcel trajectory (5.326875138) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1468
+    Acceptance rate                     = 0.330481765
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.0318423 K == 0.06497734731 eV
+    [Ne]                             = 756.3772541 K == 0.06517945898 eV
+    [Ar]                             = 751.6865696 K == 0.06477524762 eV
+----
+
+ExecutionTime = 10.95 s  ClockTime = 11 s
+
+Time = 1.69e-06
+
+    WARNING parcel trajectory (5.326875138) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1462
+    Acceptance rate                     = 0.3288349078
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 753.6370122 K == 0.06494332353 eV
+    [Ne]                             = 756.9477558 K == 0.06522862095 eV
+    [Ar]                             = 750.3264647 K == 0.06465804301 eV
+----
+
+ExecutionTime = 11.01 s  ClockTime = 11 s
+
+Time = 1.7e-06
+
+    WARNING parcel trajectory (5.326875138) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1450
+    Acceptance rate                     = 0.3264295362
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.3468236 K == 0.06500449026 eV
+    [Ne]                             = 757.8825777 K == 0.06530917755 eV
+    [Ar]                             = 750.811279 K == 0.06469982102 eV
+----
+
+ExecutionTime = 11.15 s  ClockTime = 11 s
+
+Time = 1.71e-06
+
+    WARNING parcel trajectory (5.326875138) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1450
+    Acceptance rate                     = 0.3265030399
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.5494635 K == 0.06502195239 eV
+    [Ne]                             = 755.8577909 K == 0.06513469517 eV
+    [Ar]                             = 753.2412135 K == 0.06490921628 eV
+----
+
+ExecutionTime = 11.21 s  ClockTime = 11 s
+
+Time = 1.72e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1445
+    Acceptance rate                     = 0.3245003369
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 754.1538414 K == 0.06498786036 eV
+    [Ne]                             = 756.0230561 K == 0.0651489366 eV
+    [Ar]                             = 752.2847375 K == 0.06482679367 eV
+----
+
+ExecutionTime = 11.26 s  ClockTime = 11 s
+
+Time = 1.73e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1474
+    Acceptance rate                     = 0.3316831683
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.0845358 K == 0.06506806129 eV
+    [Ne]                             = 755.3300773 K == 0.06508922039 eV
+    [Ar]                             = 754.8390088 K == 0.06504690344 eV
+----
+
+ExecutionTime = 11.32 s  ClockTime = 11 s
+
+Time = 1.74e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1465
+    Acceptance rate                     = 0.3298063935
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.0906866 K == 0.06506859132 eV
+    [Ne]                             = 755.8439809 K == 0.06513350511 eV
+    [Ar]                             = 754.3374369 K == 0.06500368138 eV
+----
+
+ExecutionTime = 11.38 s  ClockTime = 11 s
+
+Time = 1.75e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1457
+    Acceptance rate                     = 0.3276366089
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.4746494 K == 0.06510167863 eV
+    [Ne]                             = 756.4012113 K == 0.06518152345 eV
+    [Ar]                             = 754.5481424 K == 0.06502183855 eV
+----
+
+ExecutionTime = 11.43 s  ClockTime = 11 s
+
+Time = 1.76e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1464
+    Acceptance rate                     = 0.3295070898
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.8958286 K == 0.06513797299 eV
+    [Ne]                             = 756.8151069 K == 0.06521719017 eV
+    [Ar]                             = 754.9766047 K == 0.06505876052 eV
+----
+
+ExecutionTime = 11.49 s  ClockTime = 11 s
+
+Time = 1.77e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1494
+    Acceptance rate                     = 0.3363349842
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.4523977 K == 0.06509976113 eV
+    [Ne]                             = 756.5624065 K == 0.06519541416 eV
+    [Ar]                             = 754.3424547 K == 0.06500411378 eV
+----
+
+ExecutionTime = 11.54 s  ClockTime = 11 s
+
+Time = 1.78e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1455
+    Acceptance rate                     = 0.3271133094
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.7670645 K == 0.06512687698 eV
+    [Ne]                             = 755.2237149 K == 0.0650800548 eV
+    [Ar]                             = 756.3103818 K == 0.06517369638 eV
+----
+
+ExecutionTime = 11.6 s  ClockTime = 11 s
+
+Time = 1.79e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1488
+    Acceptance rate                     = 0.3334080215
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.0862755 K == 0.06515438442 eV
+    [Ne]                             = 756.7821536 K == 0.06521435047 eV
+    [Ar]                             = 755.3904387 K == 0.06509442193 eV
+----
+
+ExecutionTime = 11.66 s  ClockTime = 11 s
+
+Time = 1.8e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1463
+    Acceptance rate                     = 0.3273663012
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.2807405 K == 0.06517114209 eV
+    [Ne]                             = 758.9258119 K == 0.06539907639 eV
+    [Ar]                             = 753.6358258 K == 0.06494322129 eV
+----
+
+ExecutionTime = 11.8 s  ClockTime = 11 s
+
+Time = 1.81e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1454
+    Acceptance rate                     = 0.3254980972
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.7635651 K == 0.06512657542 eV
+    [Ne]                             = 760.1549011 K == 0.06550499096 eV
+    [Ar]                             = 751.3724892 K == 0.0647481823 eV
+----
+
+ExecutionTime = 11.86 s  ClockTime = 11 s
+
+Time = 1.82e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1530
+    Acceptance rate                     = 0.342588446
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.753081 K == 0.06512567198 eV
+    [Ne]                             = 761.7716361 K == 0.06564431022 eV
+    [Ar]                             = 749.7348825 K == 0.06460706447 eV
+----
+
+ExecutionTime = 11.91 s  ClockTime = 11 s
+
+Time = 1.83e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1495
+    Acceptance rate                     = 0.3352769679
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.646551 K == 0.06520266516 eV
+    [Ne]                             = 762.0544137 K == 0.06566867806 eV
+    [Ar]                             = 751.2390087 K == 0.06473667986 eV
+----
+
+ExecutionTime = 11.97 s  ClockTime = 12 s
+
+Time = 1.84e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1502
+    Acceptance rate                     = 0.3348940914
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.3938951 K == 0.06518089299 eV
+    [Ne]                             = 763.8524427 K == 0.06582362001 eV
+    [Ar]                             = 748.9357893 K == 0.06453820404 eV
+----
+
+ExecutionTime = 12.02 s  ClockTime = 12 s
+
+Time = 1.85e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1515
+    Acceptance rate                     = 0.3376420771
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.5449452 K == 0.06519390946 eV
+    [Ne]                             = 762.961427 K == 0.06574683832 eV
+    [Ar]                             = 750.1288434 K == 0.06464101335 eV
+----
+
+ExecutionTime = 12.08 s  ClockTime = 12 s
+
+Time = 1.86e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1475
+    Acceptance rate                     = 0.3296089385
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.6256438 K == 0.06520086352 eV
+    [Ne]                             = 763.8129236 K == 0.06582021452 eV
+    [Ar]                             = 749.4387898 K == 0.06458154921 eV
+----
+
+ExecutionTime = 12.14 s  ClockTime = 12 s
+
+Time = 1.87e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1464
+    Acceptance rate                     = 0.3262759082
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.0921167 K == 0.06515488777 eV
+    [Ne]                             = 765.6182655 K == 0.06597578663 eV
+    [Ar]                             = 746.5665323 K == 0.06433403755 eV
+----
+
+ExecutionTime = 12.19 s  ClockTime = 12 s
+
+Time = 1.88e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1465
+    Acceptance rate                     = 0.326426025
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.1573505 K == 0.06516050918 eV
+    [Ne]                             = 764.7806517 K == 0.06590360676 eV
+    [Ar]                             = 747.5345603 K == 0.06441745563 eV
+----
+
+ExecutionTime = 12.25 s  ClockTime = 12 s
+
+Time = 1.89e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1519
+    Acceptance rate                     = 0.3395172105
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.14411 K == 0.0651593682 eV
+    [Ne]                             = 765.0430702 K == 0.0659262202 eV
+    [Ar]                             = 747.245677 K == 0.06439256163 eV
+----
+
+ExecutionTime = 12.3 s  ClockTime = 12 s
+
+Time = 1.9e-06
+
+    WARNING parcel trajectory (2.838970364) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1515
+    Acceptance rate                     = 0.3376420771
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.3140925 K == 0.06517401614 eV
+    [Ne]                             = 764.5705923 K == 0.06588550526 eV
+    [Ar]                             = 748.0580819 K == 0.06446256917 eV
+----
+
+ExecutionTime = 12.45 s  ClockTime = 12 s
+
+Time = 1.91e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1516
+    Acceptance rate                     = 0.3382418563
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.7188436 K == 0.06520889484 eV
+    [Ne]                             = 764.6977667 K == 0.0658964643 eV
+    [Ar]                             = 748.740393 K == 0.06452136612 eV
+----
+
+ExecutionTime = 12.5 s  ClockTime = 12 s
+
+Time = 1.92e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1481
+    Acceptance rate                     = 0.3305065834
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.3698092 K == 0.06517881743 eV
+    [Ne]                             = 764.1003595 K == 0.0658449838 eV
+    [Ar]                             = 748.6397168 K == 0.06451269052 eV
+----
+
+ExecutionTime = 12.56 s  ClockTime = 12 s
+
+Time = 1.93e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1466
+    Acceptance rate                     = 0.3273052021
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.0368097 K == 0.06515012179 eV
+    [Ne]                             = 764.8884172 K == 0.06591289326 eV
+    [Ar]                             = 747.1857265 K == 0.06438739551 eV
+----
+
+ExecutionTime = 12.61 s  ClockTime = 12 s
+
+Time = 1.94e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1466
+    Acceptance rate                     = 0.3268673356
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 756.2179474 K == 0.06516573101 eV
+    [Ne]                             = 764.1694109 K == 0.06585093418 eV
+    [Ar]                             = 748.2669549 K == 0.06448056843 eV
+----
+
+ExecutionTime = 12.67 s  ClockTime = 12 s
+
+Time = 1.95e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1489
+    Acceptance rate                     = 0.3319215337
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.6119614 K == 0.06511351124 eV
+    [Ne]                             = 762.7129534 K == 0.06572542655 eV
+    [Ar]                             = 748.51139 K == 0.06450163219 eV
+----
+
+ExecutionTime = 12.72 s  ClockTime = 12 s
+
+Time = 1.96e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1504
+    Acceptance rate                     = 0.3354896275
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.8370219 K == 0.06513290544 eV
+    [Ne]                             = 762.6972384 K == 0.06572407234 eV
+    [Ar]                             = 748.9772119 K == 0.06454177356 eV
+----
+
+ExecutionTime = 12.78 s  ClockTime = 12 s
+
+Time = 1.97e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1417
+    Acceptance rate                     = 0.3153093013
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.7969214 K == 0.06512944984 eV
+    [Ne]                             = 761.7842846 K == 0.06564540017 eV
+    [Ar]                             = 749.8099129 K == 0.06461353008 eV
+----
+
+ExecutionTime = 12.84 s  ClockTime = 12 s
+
+Time = 1.98e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1489
+    Acceptance rate                     = 0.3316997104
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.0717328 K == 0.06506695801 eV
+    [Ne]                             = 760.2332349 K == 0.06551174123 eV
+    [Ar]                             = 749.9105365 K == 0.06462220114 eV
+----
+
+ExecutionTime = 12.89 s  ClockTime = 12 s
+
+Time = 1.99e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1520
+    Acceptance rate                     = 0.3394372488
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.2384849 K == 0.06508132758 eV
+    [Ne]                             = 760.427881 K == 0.06552851452 eV
+    [Ar]                             = 750.0493962 K == 0.06463416712 eV
+----
+
+ExecutionTime = 12.95 s  ClockTime = 13 s
+
+Time = 2e-06
+
+    WARNING parcel trajectory (5.923074844) is larger than the given limit (0.5)
+
+[Binary Collisions]
+    Collisions between neutral species  = 1473
+    Acceptance rate                     = 0.3277703605
+
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 25319
+----
+    Average Temperature             = 755.9192524 K == 0.0651399915 eV
+    [Ne]                             = 760.9057956 K == 0.06556969796 eV
+    [Ar]                             = 750.9330045 K == 0.0647103105 eV
+----
+
+ExecutionTime = 13.09 s  ClockTime = 13 s
+
+End
+

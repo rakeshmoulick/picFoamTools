@@ -1,0 +1,105 @@
+Time = 1e-13
+
+[Coulomb Collisions]
+    Coulomb Collisions              = 64392
+    Ionizations                     = 0
+    Average Debye length            = 0
+    Average b0                      = 0
+    Average Coulomb logarithm       = 15
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 64000
+----
+    Average Temperature             = 174300.9153 K == 15.02007008 eV
+    [e]                             = 231719.2285 K == 19.96799066 eV
+    [Ar+]                             = 116882.6022 K == 10.07214949 eV
+----
+
+ExecutionTime = 0.19 s  ClockTime = 0 s
+
+Time = 2e-13
+
+[Coulomb Collisions]
+    Coulomb Collisions              = 64531
+    Ionizations                     = 0
+    Average Debye length            = 0
+    Average b0                      = 0
+    Average Coulomb logarithm       = 15
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 64000
+----
+    Average Temperature             = 174301.1866 K == 15.02009345 eV
+    [e]                             = 231665.7079 K == 19.96337862 eV
+    [Ar+]                             = 116936.6653 K == 10.07680828 eV
+----
+
+ExecutionTime = 0.22 s  ClockTime = 0 s
+
+Time = 3e-13
+
+[Coulomb Collisions]
+    Coulomb Collisions              = 64603
+    Ionizations                     = 0
+    Average Debye length            = 0
+    Average b0                      = 0
+    Average Coulomb logarithm       = 15
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 64000
+----
+    Average Temperature             = 174301.0916 K == 15.02008527 eV
+    [e]                             = 231654.3907 K == 19.96240338 eV
+    [Ar+]                             = 116947.7925 K == 10.07776715 eV
+----
+
+ExecutionTime = 0.25 s  ClockTime = 0 s
+
+Time = 4e-13
+
+[Coulomb Collisions]
+    Coulomb Collisions              = 64613
+    Ionizations                     = 0
+    Average Debye length            = 0
+    Average b0                      = 0
+    Average Coulomb logarithm       = 15
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 64000
+----
+    Average Temperature             = 174301.4711 K == 15.02011797 eV
+    [e]                             = 231582.6299 K == 19.95621953 eV
+    [Ar+]                             = 117020.3123 K == 10.08401642 eV
+----
+
+ExecutionTime = 0.28 s  ClockTime = 0 s
+
+Time = 5e-13
+
+[Coulomb Collisions]
+    Coulomb Collisions              = 64680
+    Ionizations                     = 0
+    Average Debye length            = 0
+    Average b0                      = 0
+    Average Coulomb logarithm       = 15
+
+
+[Diagnostics]
+Cloud name: pic
+    Number of pic particles        = 64000
+----
+    Average Temperature             = 174301.554 K == 15.02012511 eV
+    [e]                             = 231540.0024 K == 19.95254617 eV
+    [Ar+]                             = 117063.1056 K == 10.08770405 eV
+----
+
+ExecutionTime = 0.31 s  ClockTime = 0 s
+
